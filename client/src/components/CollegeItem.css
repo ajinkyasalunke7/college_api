@@ -1,0 +1,41 @@
+.college-item {
+  display: block;
+  padding: 16px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background-color: #ffffff;
+  text-decoration: none;
+
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  margin-bottom: 16px; /* Space between items */
+}
+
+.college-item:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.college-content {
+  display: flex;
+  flex-direction: column;
+  /* width: 200px; */
+}
+
+.college-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.college-details {
+  font-size: 1rem;
+  color: #000000;
+  margin: 4px 0;
+  font-style: bold;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #333;
+}
